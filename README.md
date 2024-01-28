@@ -7,6 +7,7 @@ openresty 是基於```nginx在加上lua腳本```的web server，比起單純的n
   ```
   git clone https://github.com/JackViewLand/openresty.git
   ```
+* 請修改conf.d資料夾，新增自己的```域名.conf```與修正```server name```
 
 * 執行docker-compose
   ```
