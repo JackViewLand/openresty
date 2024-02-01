@@ -11,3 +11,4 @@ services:
       - './conf.d:/etc/nginx/conf.d'
       - './nginx.conf:/usr/local/openresty/nginx/conf/nginx.conf'
       - './data:/data'
+      - './cert:/usr/local/openresty/nginx/cert'
